@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <nav>
+        <input type="checkbox" id="sidebar-active">
+        <label for="sidebar-active" class="open-sidebar-button">
+            <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#5f6368"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg>
+        </label>
+
+        <label id="overlay" for="sidebar-active"></label>
+        <div class="links-container">
+            <label for="sidebar-active" class="close-sidebar-button">
+                <svg xmlns="http://www.w3.org/2000/svg" height="32px" viewBox="0 -960 960 960" width="32px" fill="#5f6368"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>
+            </label>
+
+            <a class="home-link" href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </nav>
+
+    <section class="home-page" id="home">
+        <div class="left-home">
+            <p class="introduction">What's good?! 👋 I'm CJ Cabase</p>
+            <h1 class="welcome-message">A <span class="highlight">computer geek</span> who wants to make the world a better place</h1>
+            
+            <div class="experience">
+                <p class="numbers">3+</p>
+                <p class="statements">years of experience</p>
+            </div>
+            <div class="coding">
+                <p class="numbers">10k+</p>
+                <p class="statements">lines of code written</p>
+            </div>
+            <div class="coffee">
+                <p class="numbers">1k+</p>
+                <p class="statements">cups of coffee consumed</p>
+            </div>
+
+            <a href="mailto:cabasece@students.nu-laguna.edu.ph">
+                <button>
+                        Hit me up
+                        <div class="arrow-wrapper">
+                            <div class="arrow"></div>
+                        </div>
+                </button>
+            </a>
+        </div>
+
+        <div class="right-home">
+            <img src="./styles/photos/memoji-cj.png" alt="My avatar">
+        </div>
+    </section>
+
+    <section class="about-page" id="about">
+        <div class="page-title">
+            <svg class="menu-icons" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#5f6368">
+                <path d="M440-280h80v-240h-80v240Zm40-320q17 0 28.5-11.5T520-640q0-17-11.5-28.5T480-680q-17 0-28.5 11.5T440-640q0 17 11.5 28.5T480-600Zm0 520q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/>
+            </svg>
+            <div>
+                <h3 class="title">About me</h3>
+                <p class="subtitle">Who I am and what drives me</p>
+            </div>
+        </div>
+        <div class="content">
+            <div class="left-about">
+                <div class="id-picture"></div>
+                <div class="my-name"><h2>Carl Joshua E. Cabase</h2></div>
+                <div class="nickname"><p>(he/him)  |  Nicknames: CJ, Joshua</p></div>
+                <a href="mailto:cabasece@students.nu-laguna.edu.ph">
+                    <button>
+                            Hit me up
+                            <div class="arrow-wrapper">
+                                <div class="arrow"></div>
+                            </div>
+                    </button>
+                </a>
+            </div>
+            <div class="right-about">
+                <div class="info-block">
+                    <div class="about-info">CREDENTIALS</div>
+                    <div class="about-details">
+                        <p>Vice President, School of Computer Studies</p>
+                        <p>Alpha - Microsoft Learn Student Ambassador</p>
+                    </div>
+                </div>
+                <div class="info-block">
+                    <div class="about-info">BIO</div>
+                    <div class="about-details">
+                        <p>I'm a pretty well-rounded nerd who enjoys a hot cup of coffee, even on a scorching 45-degree weather. I love staying up late and enjoy long solitary walks on cold mornings. Fun fact: I was Time magazine's "Person of the Year" in 2006. It's true. What really gets me going is my passion for technology and social impact. I want to help create communities where technology is used for and by all people.</p>
+                    </div>
+                </div>
+                <div class="info-block">
+                    <div class="about-info">PERSONAL INFORMATION</div>
+                    <div class="about-details">
+                        <p class="about-emphasis">June 19, 2004</p>
+                        <p class="info-label">Date of birth</p>
+                        <p class="about-emphasis">Brgy. Punta, Calamba City, Laguna 4027</p>
+                        <p class="info-label">Address</p>
+                        <p class="about-emphasis">cabasece@students.nu-laguna.edu.ph</p>
+                        <p class="info-label">Email address</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    
+
+    <section class="experience-page" id="experience">
+        <section class="timeline">
+            <div class="timeline-row">
+                <div class="timeline-column">
+                    <div class="page-title">
+                        <svg class="menu-icons" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#5f6368">
+                            <path d="M480-120 200-272v-240L40-600l440-240 440 240v320h-80v-276l-80 44v240L480-120Zm0-332 274-148-274-148-274 148 274 148Zm0 241 200-108v-151L480-360 280-470v151l200 108Zm0-241Zm0 90Zm0 0Z"/>
+                        </svg>
+                        <div>
+                            <h3 class="title">Education</h3>
+                            <p class="subtitle">My academic background</p>
+                        </div>
+                    </div>
+                    <div class="timeline-box">
+                        <div class="timeline-content">
+                            <div class="university-block">
+                                <div class="nu-shs-logo"></div>
+                                <div class="text-area">
+                                    <p>2020-2022</p>
+                                    <h3>NU Laguna - Senior High School</h2>
+                                    <h4>Science, Technology, Engineering, and Mathematics (STEM)</h4>
+                                </div>
+                            </div>
+                            <div class="credentials">
+                                <ul>
+                                    <li><span>With High Honors: </span>ranked 4th out of 135 total of number of SHS students; 2.5th out of 83 STEM students</li>
+                                    <li><span>Service Awardee: </span>Self-direct Agent of Change</li>
+                                    <li><span>Nationalian Scholarship Awardee</span></li>
+                                    <li><span>Activities and societies: </span>NU Laguna SHS Junior Council of Leaders</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="timeline-content">
+                            <div class="university-block">
+                                <div class="nu-logo"></div>
+                                <div class="text-area">
+                                    <p>2022-2026</p>
+                                    <h3>NU Laguna</h2>
+                                    <h4>Bachelor of Science in Information Systems</h4>
+                                </div>
+                            </div>
+                            <div class="credentials">
+                                <ul>
+                                    <li><span>DMMJ Blue Scholar</span></li>
+                                    <li><span>Activities and societies: </span>NU Laguna Council of Leaders, NU Laguna School of Computer Studies - Student Council, NU Laguna Alpha Gaming</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-column">
+                    <div class="page-title">
+                        <svg class="menu-icons" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#5f6368">
+                            <path d="M280-120v-80h160v-124q-49-11-87.5-41.5T296-442q-75-9-125.5-65.5T120-640v-40q0-33 23.5-56.5T200-760h80v-80h400v80h80q33 0 56.5 23.5T840-680v40q0 76-50.5 132.5T664-442q-18 46-56.5 76.5T520-324v124h160v80H280Zm0-408v-152h-80v40q0 38 22 68.5t58 43.5Zm200 128q50 0 85-35t35-85v-240H360v240q0 50 35 85t85 35Zm200-128q36-13 58-43.5t22-68.5v-40h-80v152Zm-200-52Z"/>
+                        </svg>
+                        <div>
+                            <h3 class="title">Achievements</h3>
+                            <p class="subtitle">What I’ve accomplished</p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-box">
+                        <div class="timeline-content">
+                            <div class="achievement-block">
+                                <div class="achievement-photo"><img src="./styles/photos/icj-2024.png" alt="Team HACKRR winning Imagine Cup Junior 2022"></div>
+                                <div class="text-area">
+                                    <p>August 2022</p>
+                                    <h3>Team HACKRR, Top 10 Global Winner</h2>
+                                    <h4>Microsoft’s Imagine Cup Junior 2022</h4>
+                                </div>
+                            </div>
+                            <div class="description">
+                                <ul>
+                                    <li>HACKRR, Philippines: WTFact is a fact-checking browser extension that utilizes AI to detect fake news and make internet users aware of online mis- and disinformation.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="timeline-content">
+                            <div class="achievement-block">
+                                <div class="achievement-photo"><img src="./styles/photos/team-inc.png" alt="A photo of Team INC holding their certificates after winning an academic contest"></div>
+                                <div class="text-area">
+                                    <p>May 2023</p>
+                                    <h3>Team INC, Champion</h2>
+                                    <h4>CAS Academic Contest 2023: PaGElingan - The Ultimate GE Contest</h4>
+                                </div>
+                            </div>
+                            <div class="description">
+                                <ul>
+                                    <li>Held on the 17th of May 2023 at the Henry Sy Sr. Hall Auditorium, Team INC triumphed as the sole CCS representatives.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="timeline-content">
+                            <div class="achievement-block">
+                                <div class="achievement-photo"><img src="./styles/photos/team-launchpad.png" alt="Team Launchpad's photo after securing the third place on a hackathon"></div>
+                                <div class="text-area">
+                                    <p>May 2023</p>
+                                    <h3>Team Launchpad, 3rd Place</h2>
+                                    <h4>CCS Days  |  Innovate and Elevate: A One-Day Hackathon</h4>
+                                </div>
+                            </div>
+                            <div class="description">
+                                <ul>
+                                    <li>Secured third place in a one-day hackathon by creating an employee onboarding solution with Microsoft Power Apps.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="timeline-content">
+                            <div class="achievement-block">
+                                <div class="achievement-photo"><img src="./styles/photos/team-dysciples.png" alt="Team Dysciples at PCS8 Regional Pitching Competition"></div>
+                                <div class="text-area">
+                                    <p>October 2023</p>
+                                    <h3>Team Dysciples, Regional Finalist</h2>
+                                    <h4>DICT Region IV-A’s Philippine Startup Challenge 8 Regional Pitching Competition</h4>
+                                </div>
+                            </div>
+                            <div class="description">
+                                <ul>
+                                    <li>Advanced to the Regional Finals of PSC8, a nationwide annual pitching competition for student-based ICT start-up founders.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="timeline-content">
+                            <div class="achievement-block">
+                                <div class="achievement-photo"><img src="./styles/photos/team-dot-com.png" alt="Team Dot Com's photo"></div>
+                                <div class="text-area">
+                                    <p>June 2024</p>
+                                    <h3>Team Dot Com, Winning Idea</h2>
+                                    <h4>James Dyson Foundation’s Ideathon 2024</h4>
+                                </div>
+                            </div>
+                            <div class="description">
+                                <ul>
+                                    <li>Won the "Winning Idea" award for Dot Com,   a smart braille phone case for the blind, deaf-blind, and visually impaired.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <div class="timeline-content">
+                            <div class="achievement-block">
+                                <div class="achievement-photo"><img src="./styles/photos/mlsa.png" alt="Team Dot Com's photo"></div>
+                                <div class="text-area">
+                                    <p>July 2024 - Present</p>
+                                    <h3>Microsoft Student Ambassador</h2>
+                                    <h4>Microsoft</h4>
+                                </div>
+                            </div>
+                            <div class="description">
+                                <ul>
+                                    <li>Student Ambassadors are a global group of campus leaders who are eager to help fellow students, create robust tech communities, and develop technical and career skills for the future.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <section class="skills-page" id="skills">
+        <div class="page-title">
+            <svg class="menu-icons" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#5f6368">
+                <path d="M320-240 80-480l240-240 57 57-184 184 183 183-56 56Zm320 0-57-57 184-184-183-183 56-56 240 240-240 240Z"/>
+            </svg>
+            <div>
+                <h3 class="title">Skills</h3>
+                <p class="subtitle">The tools and technologies I'm good at</p>
+            </div>
+        </div>
+
+        <div class="skills-row">
+            <div class="left-skills"> 
+                <img src="./styles/photos/memoji-laptop.png" alt="My avatar typing on a laptop">
+            </div>
+            <div class="skills-container">
+                <div class="card">
+                    <p>HTML</p>
+                    <img src="./styles/logos/html.png" alt="HTML logo">
+                </div>
+                <div class="card">
+                    <p>CSS</p>
+                    <img src="./styles/logos/css.png" alt="CSS logo">
+                </div>
+                <div class="card">
+                    <p>JavaScript</p>
+                    <img src="./styles/logos/javascript.png" alt="JavaScript logo">
+                </div>
+                <div class="card">
+                    <p>MySQL</p>
+                    <img src="./styles/logos/mysql.png" alt="MySQL logo">
+                </div>
+                <div class="card">
+                    <p>Git</p>
+                    <img src="./styles/logos/git.png" alt="Git logo">
+                </div>
+                <div class="card">
+                    <p>GitHub</p>
+                    <img src="./styles/logos/github.png" alt="GitHub logo">
+                </div>
+                <div class="card">
+                    <p>TypeScript</p>
+                    <img src="./styles/logos/typescript.png" alt="TypeScript logo">
+                </div>
+                <div class="card">
+                    <p>Node.js</p>
+                    <img src="./styles/logos/node-js.png" alt="Node.js logo">
+                </div>
+                <div class="card">
+                    <p>VS Code</p>
+                    <img src="./styles/logos/vs code.png" alt="VS Code logo">
+                </div>
+                <div class="card">
+                    <p>Figma</p>
+                    <img src="./styles/logos/figma.png" alt="Figma logo">
+                </div>
+                <div class="card">
+                    <p>Canva</p>
+                    <img src="./styles/logos/canva.png" alt="Canva logo">
+                </div>
+                <div class="card">
+                    <p>Power Apps</p>
+                    <img src="./styles/logos/power apps.png" alt="Power Apps logo">
+                </div>
+                <div class="card">
+                    <p>Power Automate</p>
+                    <img src="./styles/logos/power automate.png" alt="Power Automate logo">
+                </div>
+                <div class="card">
+                    <p>SharePoint</p>
+                    <img src="./styles/logos/sharepoint.png" alt="SharePoint logo">
+                </div>
+                <div class="card">
+                    <p>Scratch</p>
+                    <img src="./styles/logos/scratch.png" alt="Scratch logo">
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <section class="projects-page" id="projects">
+        <div class="page-title">
+            <svg class="menu-icons" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#5f6368">
+                <path d="M0-160v-80h80v-600h800v600h80v80H0Zm400-80h160v-40H400v40ZM160-360h640v-400H160v400Zm320-200Z"/>
+            </svg>
+            <div>
+                <h3 class="title">Projects</h3>
+                <p class="subtitle">The works I’ve been involved with</p>
+            </div>
+        </div>
+        <div class="projects-row">
+            <div class="card-container">
+                <div class="project-card">
+                    <img src="./styles/photos/out-of-the-cave.png" alt="A Scratch game CJ did for one of his courses">
+                    <div class="card-content">
+                        <div class="title-description">
+                            <h3>OUT OF THE CAVE</h3>
+                            <p>2D Metroidvania game built with Scratch</p>
+                        </div>
+                        <a href="https://scratch.mit.edu/projects/980094012" target="_blank" class="open-link">
+                            <svg class="open-in-new" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                <path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z"/>
+                            </svg>
+                        </a>
+                        <div class="description">
+                            <p>OUT OF THE CAVE is a 2D Metroidvania game built with Scratch. The goal is simple: collect all 5 keys, 30 ores, and escape. With the ability to run, jump, and wall-jump, players must navigate through single-screen challenges, explore the depths of the cave, and eventually find their way out.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="./styles/photos/launchpad.png" alt="A UI design of an employee onboarding system">
+                    <div class="card-content">
+                        <div class="title-description">
+                            <h3>LAUNCHPAD</h3>
+                            <p>An automated employee onboarding system</p>
+                        </div>
+                        <a href="https://github.com/BIade1/HR-Launchpad" target="_blank" class="open-link">
+                            <svg class="open-in-new" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                <path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z"/>
+                            </svg>
+                        </a>
+                        <div class="description">
+                            <p>Launchpad, an automated employee onboarding system using Microsoft Power Apps and AI Builder Document Processing, aims to streamline the onboarding process.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="./styles/photos/dot-com.png" alt="A UI design of a mobile application for the visually impaired">
+                    <div class="card-content">
+                        <div class="title-description">
+                            <h3>DOT COM</h3>
+                            <p>A smart braille phone case for the visually impaired</p>
+                        </div>
+                        <a href="https://youtu.be/dQw4w9WgXcQ?si=43i9FNxIOoEJB3yW" target="_blank" class="open-link">
+                            <svg class="open-in-new" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#5f6368">
+                                <path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h280v80H200v560h560v-280h80v280q0 33-23.5 56.5T760-120H200Zm188-212-56-56 372-372H560v-80h280v280h-80v-144L388-332Z"/>
+                            </svg>
+                        </a>
+                        <div class="description">
+                            <p>Dot Com is an innovative phone case designed to assist blind and deafblind individuals in communicating and accessing information through their smartphones.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact-page" id="contact">
+        <div class="page-title">
+            <svg class="menu-icons" xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#5f6368">
+              <path d="M480-400q33 0 56.5-23.5T560-480q0-33-23.5-56.5T480-560q-33 0-56.5 23.5T400-480q0 33 23.5 56.5T480-400ZM320-240h320v-23q0-24-13-44t-36-30q-26-11-53.5-17t-57.5-6q-30 0-57.5 6T369-337q-23 10-36 30t-13 44v23ZM720-80H240q-33 0-56.5-23.5T160-160v-640q0-33 23.5-56.5T240-880h320l240 240v480q0 33-23.5 56.5T720-80Zm0-80v-446L526-800H240v640h480Zm-480 0v-640 640Z"/>
+            </svg>
+            <div>
+              <h3 class="title">Contact</h3>
+              <p class="subtitle">Connect with me</p>
+            </div>
+          </div>
+        <div class="my-socials">
+          <div id="social-test">
+            <ul class="social">
+              <li><a href="https://facebook.com/cjerror404" target="_blank" aria-label="Facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+              <li><a href="https://x.com/jawzzzh" target="_blank" aria-label="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+              <li><a href="https://instagram.com/cjerror404" target="_blank" aria-label="Instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+              <li><a href="https://github.com/cjerror404" target="_blank" aria-label="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+              <li><a href="https://linkedin.com/in/cjcabase" target="_blank" aria-label="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </section>      
+</body>
+</html>
